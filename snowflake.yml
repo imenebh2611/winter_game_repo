@@ -1,0 +1,7 @@
+definition_version: "1.1"
+streamlit:
+  name: winter_game_ibh
+  stage: RAW_DATA
+  query_warehouse: cortex_analyst_wh
+  main_file: analyst_winter_game.py
+  env_file: environment.yml
